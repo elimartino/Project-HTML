@@ -1,0 +1,119 @@
+<html>
+<head>
+<title>Albums</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<h1>Albums</h1>
+
+<a href="artists.html">Artists</a> | <a href="albums.html">Albums</a> | <a href="playlists.html">Playlists</a> | <a href="songs.html">Songs</a> | <a href="users.html">Users</a> | <a href="recordcompanies.html">Record Companies</a>
+<table>
+  <tr>
+    <th><a href="#">New</a></th>
+    <th></th>
+    <th>ID</th>
+    <th>Albums</th>
+    <th>Year Released</th>
+  </tr>
+  <tr>
+    <td><a href="#">Edit</a></td>
+    <td><a href="#">Delete</a></td>
+    <td> 1 </td>
+    <td> Crooked Rain </td>
+    <td> 2004 </td>
+  </tr>
+  <tr>
+    <td><a href="#">Edit</a></td>
+    <td><a href="#">Delete</a></td>
+    <td> 2 </td>
+    <td> Never Hungover Again </td>
+    <td> 2014 </td>
+  </tr>
+  <tr>
+    <td><a href="#">Edit</a></td>
+    <td><a href="#">Delete</a></td>
+    <td> 3 </td>
+    <td> Husband </td>
+    <td> 2019 </td>
+  </tr>
+  <tr>
+    <td><a href="#">Edit</a></td>
+    <td><a href="#">Delete</a></td>
+    <td> 4 </td>
+    <td> Catalyst </td>
+    <td> 2015 </td>
+  </tr>
+  <tr>
+    <td><a href="#">Edit</a></td>
+    <td><a href="#">Delete</a></td>
+    <td> 5 </td>
+    <td> AM </td>
+    <td> 2013 </td>
+  </tr>
+  <tr>
+    <td><a href="#">Edit</a></td>
+    <td><a href="#">Delete</a></td>
+    <td> 6 </td>
+    <td> Best Buds </td>
+    <td> 2016 </td>
+  </tr>
+  <tr>
+    <td><a href="#">Edit</a></td>
+    <td><a href="#">Delete</a></td>
+    <td> 7 </td>
+    <td> Self Titled </td>
+    <td> 2014 </td>
+  </tr>
+  <tr>
+    <td><a href="#">Edit</a></td>
+    <td><a href="#">Delete</a></td>
+    <td> 8 </td>
+    <td> Lil Diddy </td>
+    <td> 2014 </td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</div> <!-- browse -->
+<div id="insert">
+    <form id="addAlbum">
+        <legend>Add Album</legend>
+          <fieldset>
+            <label> Name </label> <input type="text" name="name">
+            <label> ReleaseDate </label> <input type="text" name="relDate">
+          </fieldset>
+          <input class="btn" type="submit" id="addAlbum" value="Add an Album">
+          <input class="btn" type="button" value="cancel">
+	</form> 
+</div>
+
+<div id="update">
+    <form id="updateAlbum">
+        <legend>Update Album</legend>
+            <fieldset>
+            <label>ID:</label> 1
+              <label> Name </label> <input type="text" name="name" value="Crooked Rain">
+              <label> Year Released </label> <input type="text"  name="yearRel" value="2004">
+      </fieldset>
+      <input class="btn" type="submit" id="UpdateSaveAlbum" value="Save Update Album">
+            <input class="btn" type="button" value="cancel" >
+    </form> 
+</div>
+
+<div id="delete">
+    <form id="deleteAlbum">
+        <legend>Delete Album</legend>
+            <fieldset>
+            <p>Item To Delete</p>
+            <label>ID:</label> 1
+              <label> Name </label> Crooked Rain
+      </fieldset>
+      <input class="btn" type="submit" id="DeleteAlbum" value="Delete Album">
+            <input class="btn" type="button" value="cancel" >
+    </form> 
+</div>
+  
+
+
+</body>
+</html>

@@ -1,0 +1,122 @@
+<html>
+<head>
+<title>Artists</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<h1>Artists</h1>
+
+<a href="artists.html">Artists</a> | <a href="albums.html">Albums</a> | <a href="playlists.html">Playlists</a> | <a href="songs.html">Songs</a> | <a href="users.html">Users</a> | <a href="recordcompanies.html">Record Companies</a>
+<div>
+<table>
+  <tr>
+    <th><a href="artistAdd.html">New</a></th>
+    <th></th>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Date Established</th>
+    <th>Record Company ID</th>
+    <th>Total Songs</th>
+  </tr>
+  <tr>
+    <td><a href="#">Edit</a></td>
+    <td><a href="#">Delete</a></td>
+    <td> 1 </td>
+    <td> Pavement </td>
+    <td> 1995 </td>
+    <td> 1 </td>
+    <td> 65 </td>
+  </tr>
+  <tr>
+    <td><a href="#">Edit</a></td>
+    <td><a href="#">Delete</a></td>
+    <td> 2 </td>
+    <td> Joyce Manor </td>
+    <td> 2009 </td>
+    <td> 2 </td>
+    <td> 32 </td>
+  </tr>
+  <tr>
+    <td><a href="#">Edit</a></td>
+    <td><a href="#">Delete</a></td>
+    <td> 3 </td>
+    <td> Father </td>
+    <td> 2005 </td>
+    <td> 3 </td>
+    <td> 46 </td>
+  </tr>
+  <tr>
+    <td><a href="#">Edit</a></td>
+    <td><a href="#">Delete</a></td>
+    <td> 4 </td>
+    <td> Ethereal </td>
+    <td> 2006 </td>
+    <td> 3 </td>
+    <td> 43 </td>
+  </tr>
+  <tr>
+    <td><a href="#">Edit</a></td>
+    <td><a href="#">Delete</a></td>
+    <td> 5 </td>
+    <td> Arctic Monkeys </td>
+    <td> 1999 </td>
+    <td> 4 </td>
+    <td> 80 </td>
+  </tr>
+  <tr>
+    <td><a href="#">Edit</a></td>
+    <td><a href="#">Delete</a></td>
+    <td> 6 </td>
+    <td> Mom Jeans </td>
+    <td> 2008 </td>
+    <td> 5 </td>
+    <td> 27 </td>
+  </tr>
+</table>
+
+</div> 
+<div id="insert">
+    <form id="addArtist">
+        <legend>Add Artist</legend>
+          <fieldset>
+            <label> Name </label> <input type="text" name="name">
+            <label> Date Established </label> <input type="text" name="dateEst">
+            <label> Record Company </label> <input type="text" name="recComp">
+            <label> Total Songs </label> <input type="text" name="totSongs">
+          </fieldset>
+          <input class="btn" type="submit" id="addArtist" value="Add an Artist">
+          <input class="btn" type="button" value="cancel">
+	</form>
+</div>
+
+<div id="update">
+  <form id="updateArtist">
+      <legend>Update Artist</legend>
+          <fieldset>
+          <label>ID:</label> 1
+            <label> Name </label> <input type="text" name="name" value="Pavement">
+            <label> Date Established </label> <input type="text"  name="dateEst" value="1995">
+            <label> Record Company ID </label> <input type="text" name="recCompId" value="1">
+            <label> Total Songs </label> <input type="text" name="totSongs" value="65">
+    </fieldset>
+    <input class="btn" type="submit" id="UpdateSaveArtist" value="Save Update Artist">
+          <input class="btn" type="button" value="cancel" >
+  </form> 
+</div>
+
+<div id="delete">
+    <form id="deleteArtist">
+        <legend>Delete Artist</legend>
+            <fieldset>
+            <p>Item To Delete</p>
+            <label>ID:</label> 1
+              <label> Name </label> Pavement
+      </fieldset>
+      <input class="btn" type="submit" id="DeleteArtist" value="Delete Artist">
+            <input class="btn" type="button" value="cancel" >
+    </form> 
+
+</div>
+</body>
+<Pavement
